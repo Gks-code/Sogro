@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Vitalis - Medicina Metabólica e Emagrecimento</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-heartbeat"></i>
+                    Instituto Vitalis
+                </div>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#protocolos">Protocolos</a></li>
+                    <li><a href="#resultados">Resultados</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <!-- Botão movido para dentro do menu no mobile para facilitar -->
+                    <li class="mobile-only"><a href="#protocolos" class="btn btn-primary">Agendar</a></li>
+                </ul>
+                <a href="#protocolos" class="btn btn-primary desktop-only">Agendar Avaliação</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ciência Avançada para um Emagrecimento Seguro</h1>
+                <p>Nossos protocolos clínicos são desenvolvidos por especialistas para combater a obesidade e restaurar
+                    sua saúde metabólica com eficácia comprovada.</p>
+                <div class="cta-group">
+                    <a href="#protocolos" class="btn btn-primary">Conheça Nossos Protocolos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Imagem do Hero será inserida aqui via CSS/JS ou direto no HTML depois de gerada -->
+                <img src="assets/medical_hero_image.png" alt="Médica Especialista do Instituto Vitalis"
+                    onerror="this.style.display='none'">
+                <div class="trust-badge">
+                    <i class="fas fa-user-md"></i>
+                    <span>Supervisão Médica</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators -->
+    <div class="trust-section">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Resultados Clinicamente Comprovados</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-flask"></i>
+                    <span>Tecnologia Farmacêutica Avançada</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Acompanhamento Especializado</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <section class="products" id="protocolos">
+        <div class="container">
+            <h2 class="section-title">Nossos Protocolos Clínicos</h2>
+            <p class="section-subtitle">Tratamentos personalizados para diferentes perfis metabólicos.</p>
+
+            <div class="products-grid">
+
+                <!-- Lipozinax -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="assets/lipozinax_bottle.png" alt="Frasco de Lipozinax"
+                            onerror="this.src='https://placehold.co/300x300/f8f9fa/dee2e6?text=Lipozinax+Image'">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-tag">Queima de Gordura</span>
+                        <h3 class="product-title">Protocolo Lipozinax</h3>
+                        <p class="product-description">Fórmula termogênica avançada focada na oxidação de tecido adiposo
+                            visceral e subcutâneo.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Redução de medidas</li>
+                            <li><i class="fas fa-check"></i> Energia sustentada</li>
+                            <li><i class="fas fa-check"></i> Ação rápida</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Detalhes</a>
+                    </div>
+                </article>
+
+                <!-- Satietyl -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="assets/satietyl_bottle.png" alt="Frasco de Satietyl"
+                            onerror="this.src='https://placehold.co/300x300/f8f9fa/dee2e6?text=Satietyl+Image'">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-tag">Controle de Apetite</span>
+                        <h3 class="product-title">Protocolo Satietyl</h3>
+                        <p class="product-description">Modulador natural de saciedade que atua nos receptores de fome,
+                            prevenindo a compulsão alimentar.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Reduz ansiedade</li>
+                            <li><i class="fas fa-check"></i> Saciedade prolongada</li>
+                            <li><i class="fas fa-check"></i> Sem efeito rebote</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Detalhes</a>
+                    </div>
+                </article>
+
+                <!-- Metabolix -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="assets/metabolix_bottle.png" alt="Frasco de Metabolix"
+                            onerror="this.src='https://placehold.co/300x300/f8f9fa/dee2e6?text=Metabolix+Image'">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-tag">Aceleração Metabólica</span>
+                        <h3 class="product-title">Protocolo Metabolix</h3>
+                        <p class="product-description">Ativador mitocondrial projetado para destravar metabolismos
+                            lentos e superar o platô de peso.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Reativa o metabolismo</li>
+                            <li><i class="fas fa-check"></i> Melhora disposição</li>
+                            <li><i class="fas fa-check"></i> Otimização hormonal</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Detalhes</a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="resultados">
+        <div class="container">
+            <h2 class="section-title">Histórias de Transformação</h2>
+            <p class="section-subtitle">Pacientes reais que recuperaram a saúde e autoestima.</p>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Tentei de tudo por 10 anos. O acompanhamento do Instituto Vitalis e o
+                        protocolo Lipozinax foram os únicos que funcionaram de verdade. Perdi 15kg em 3 meses."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Mariana S.</h4>
+                            <span>Paciente há 6 meses</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"A abordagem científica me passou muita segurança. Não é mágica, é
+                        ciência. O Satietyl tirou minha ansiedade por doces completamente."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Carlos E.</h4>
+                            <span>Paciente há 4 meses</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Recuperei minha disposição! O Metabolix me deu a energia que eu não
+                        tinha há anos. Recomendo para todos que buscam saúde."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Fernanda L.</h4>
+                            <span>Paciente há 8 meses</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Instituto Vitalis</h3>
+                    <p>Referência em emagrecimento saudável e medicina metabólica.</p>
+                    <br>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000 - São Paulo, SP</p>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#protocolos">Nossos Protocolos</a></li>
+                        <li><a href="#resultados">Depoimentos</a></li>
+                        <li><a href="#">Agendar Consulta</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Aviso Legal</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="disclaimer">
+                <p>Os resultados podem variar de pessoa para pessoa. Este site não substitui aconselhamento médico
+                    profissional. Consulte sempre um especialista antes de iniciar qualquer tratamento.</p>
+                <p>&copy; 2024 Instituto Vitalis. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script simples para o menu mobile
+        const mobileBtn = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            // Alterna ícone entre barras e X
+            const icon = mobileBtn.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Fechar menu ao clicar em um link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileBtn.querySelector('i').classList.remove('fa-times');
+                mobileBtn.querySelector('i').classList.add('fa-bars');
+            });
+        });
+    </script>
+</body>
+
+</html>
